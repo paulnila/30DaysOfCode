@@ -1,0 +1,14 @@
+t = int(input())
+for i in range(t):
+    s = input()
+    idd = 0
+    str1 = ''
+    str2 = ''
+    for l in s:
+        if idd % 2 == 0:
+            str1 = str1 + s[idd]
+        else:
+            str2 = str2 + s[idd]
+        idd += 1
+    print(str1, str2)
+
